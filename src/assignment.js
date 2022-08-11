@@ -28,7 +28,7 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(numbers) {
-    let count = 0;
+    let count = 0;let counter=0;
   for (let key of numbers) {
     if (key % 2 == 0) {
       count += 1
